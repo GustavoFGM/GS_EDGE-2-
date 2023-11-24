@@ -35,7 +35,10 @@ Exemplo de gráfico gerado a partir dos dados coletados baseando-se na ideia de 
 
 --------------------------------------------------------------------------
 simulação Wokwi:https://wokwi.com/projects/382028832536648705
-na simulação acima estamos utilizndo um sensor de temperatura para iniciar o alarme para simulando o sensor de oximetria que sera utilizado no produto final
+
+(na simulação acima estamos utilizndo um sensor de temperatura para iniciar o alarme para simulando o sensor de oximetria que sera utilizado no produto final)
+
+video YouTube:https://www.youtube.com/watch?v=6XXiLg6tLD4
 
  ------------------------------------------------------------------------------------
  o codigo em python commitado no repositorio acima, representa o sistema para cadastrar a base de dados para os medicos, e o sistema para adicionar os dados dos usuarios no produto final
