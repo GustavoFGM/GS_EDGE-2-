@@ -24,6 +24,15 @@ O problema que estamos tratando para ajudar a lidar com esta condição é volta
 
 Para tal, decidimos desenvolver um sistema onde um oxímetro, aparelho responsável por medir a saturação (medida que indica a quantidade de oxigênio presente no sangue). Caso a saturação da pessoa afetada caia a níveis perigosos, iniciará um alarme (no aparelho e no contato de emergência escolhido pelo usuário) visando acordá-la, com interrupção do perigo imediato de uma morte súbita ou um evento cardiovascular mais grave durante o sono. Os dados adquiridos pelo aparelho irão para uma base de dados que o médico terá acesso a partir do código no aparelho do seu paciente, assim otimizando o tratamento do mesmo. 
 
+ 
+
+Exemplo de gráfico gerado a partir dos dados coletados baseando-se na ideia de derivada 
+
+![image](https://github.com/GustavoFGM/GS_EDGE-2-/assets/127215077/d5b3af8c-3f09-4fa6-a046-4e3bd24b8e07)
+
+ 
+  (derivada do nível de saturação pelo tempo) 
+
 --------------------------------------------------------------------------
 simulação Wokwi:https://wokwi.com/projects/382028832536648705
 na simulação acima estamos utilizndo um sensor de temperatura para iniciar o alarme para simulando o sensor de oximetria que sera utilizado no produto final
@@ -31,10 +40,15 @@ na simulação acima estamos utilizndo um sensor de temperatura para iniciar o a
  ------------------------------------------------------------------------------------
  o codigo em python commitado no repositorio acima, representa o sistema para cadastrar a base de dados para os medicos, e o sistema para adicionar os dados dos usuarios no produto final
  com as opções de:
- -adicionar dados basicos dos usuarios
- -adicionar o nivel de saturação que ira iniciar o alarme
- -gerar uma base de dados num arquivo txt
- -mostrar a base de dados para o medico
+ 
+ --adicionar dados basicos dos usuarios
+ 
+ --adicionar o nivel de saturação que ira iniciar o alarme
+ 
+ --gerar uma base de dados num arquivo txt
+ 
+ --mostrar a base de dados para o medico
+ 
 
  
 
